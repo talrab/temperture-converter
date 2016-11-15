@@ -21,7 +21,7 @@ public class ConversionStepDefs {
     private WebDriver driver;
     public Google googlePage;
     public TemperatureConverterPage temperatureConverterPage;
-    @Given("^I want to  convert (\\d+).(\\d+) degree Fahrenheit to Celsius$")
+    @Given("I want to  convert (\\d+).(\\d+) degree Fahrenheit to Celsius")
     public void I_want_to_convert_degree_Fahrenheit_to_Celsius(int arg1, int arg2) throws Throwable {
         System.setProperty("webdriver.chrome.driver", "c:\\D\\Online Courses\\Selenium and continoues integration\\Tools\\chromedriver.exe");
         driver = new ChromeDriver();
